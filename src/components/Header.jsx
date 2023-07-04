@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import logo from "../assets/icons/logo-white.svg";
 import search from "../assets/icons/search-icon.svg";
-import grayRectangle from "../assets/icons/gray-rectangle.svg";
 import { useState } from "react";
 
 const categories = [

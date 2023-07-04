@@ -112,6 +112,7 @@
                 display: inline-block; 
                 z-index: 5;
                 @include flex-row;
+                overflow: hidden;
 
                 &:hover {
                     cursor: pointer;   
@@ -133,8 +134,8 @@
                     &:before {
                         content: '';
                         position: absolute;
-                        bottom: 0; left: 0;
-                        width: 100%; height: 0;
+                        bottom: -100%; left: 0;
+                        width: 100%; height: 0%;
                         background: nth($category-colors, $i);
                         z-index: -1;
                         transform: scaleY(0);
@@ -143,7 +144,7 @@
 
                     &:hover:before {
                         transform: scaleY(1);
-                        height: 100%;
+                        height: 200%;
                     }
                 }
             }
