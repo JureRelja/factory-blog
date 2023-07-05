@@ -15,38 +15,35 @@ const categories = [
   { title: "Travel" },
 ];
 
-function index() {
+function Header() {
   const [activeCategory, setActiveCategory] = useState("News");
 
   return (
-    <Container fluid>
-      <Row className="upper-header-row">
+    <>
+      <div className="upper-header-row">
         <div className="wrapper">
-          <div className="column-wrapper">
-            <Col>
-              <div className="logo-wrapper">
-                <div className="logo-background">
-                  <img src={logo} alt="logo" className="logo" />
-                </div>
-                <h2 className="logo-title">Kenaz</h2>
+          <div className="inner-wrapper">
+            <div className="logo-wrapper">
+              <div className="logo-background">
+                <img src={logo} alt="logo" className="logo" />
               </div>
-            </Col>
-            <Col>
-              <div className="nav-search-wrapper">
-                <ul>
-                  <li>Media</li>
-                  <li>Marketing</li>
-                  <li>Contact</li>
-                </ul>
-                <div className="search-background">
-                  <img src={search} alt="search" className="search" />
-                </div>
+              <h2>Kenaz</h2>
+            </div>
+
+            <div className="search-nav">
+              <ul>
+                <li>Media</li>
+                <li>Marketing</li>
+                <li>Contact</li>
+              </ul>
+              <div className="search-background">
+                <img src={search} alt="search" className="search" />
               </div>
-            </Col>
+            </div>
           </div>
         </div>
-      </Row>
-      <Row className="lower-header-row">
+      </div>
+      <div className="lower-header-row">
         <div className="wrapper">
           <div className="categories-wrapper">
             <ul>
@@ -66,9 +63,9 @@ function index() {
             </ul>
           </div>
         </div>
-      </Row>
-    </Container>
+      </div>
+    </>
   );
 }
 
-export default index;
+export default Header;

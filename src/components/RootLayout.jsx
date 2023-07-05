@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
-function index() {
+function RootLayout() {
   return (
     <>
       <Header />
@@ -15,4 +15,4 @@ function index() {
   );
 }
 
-export default index;
+export default RootLayout;
