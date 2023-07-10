@@ -23,3 +23,23 @@
     font-size: 10px;
     font-family: $normal-font;
 }
+
+.border-blue {
+    border-left: 10px solid $dark-blue;
+}
+
+.border-green {
+    border-left: 10px solid $green;
+}
+
+.border-red {
+    border-left: 10px solid $red;
+}
+
+.border-yellow {
+    border-left: 10px solid $yellow;
+}
+
+.border-brown {
+    border-left: 10px solid $brown;
+}

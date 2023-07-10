@@ -1,0 +1,23 @@
+.featured-category-title-wrapper {
+
+    h2 {
+        font-size: 24px;
+        font-family: $bold-font;
+        font-weight: 700;
+        color: $primary-black;
+    }
+
+    span {
+        font-size: 14px;
+        font-family: $normal-font;
+        font-weight: 400;
+        color: $dark-blue;
+        border-bottom: 1px solid #C3D7E9;
+
+        &:hover {
+            border-bottom: 1px solid $dark-blue;
+            cursor: pointer;
+        }
+    }
+}
+
