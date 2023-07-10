@@ -12,9 +12,8 @@ function RootLayout() {
         <p>banner</p>
         <p>940x120</p>
       </div>
-      <div className="wrapper d-flex justify-content-between gap-4">
+      <div className="wrapper">
         <Outlet />
-        <Sidebar />
       </div>
       <Footer />
     </div>

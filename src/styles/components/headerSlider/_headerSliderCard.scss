@@ -1,0 +1,77 @@
+.header-slider-card {
+    position: relative;
+    height: 425px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.99;
+    }
+
+    .post-img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .post-content {
+        position: absolute;
+        z-index: 30;
+        width: 100%;
+        padding: 0 30px 30px 30px;
+        bottom: 0;
+        left: 0;
+        color: #EEF6FA;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.89), black);
+
+       
+
+        .meta-data {
+            display: flex;
+            column-gap: 18px;
+            font-size: 12px;
+            font-family: $normal-font;
+            font-weight: 400;
+
+            .comments {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 5px;
+        
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        h1 {
+            color: #EEF6FA;
+            font-size: 34px;
+            font-family: $bold-font;
+            font-weight: bold;
+        }
+
+        button {
+            border: 1px solid white;
+            font-size: 14px;
+            font-family: $normal-font;
+            font-weight: 400;
+            background-color: transparent;
+            padding: 8px 22px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    
+}

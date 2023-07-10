@@ -1,0 +1,40 @@
+.header-slider-wrapper {
+    height: 425px;
+    
+}
+
+.header-slider-wrapper div.slick-arrow.slick-next::before {
+    content: url("../../../assets/icons/header-slider-right-arrow.svg");
+    position: absolute;
+    right: 28px;
+}
+
+.header-slider-wrapper div.slick-arrow.slick-next {
+    right: 0px;
+    height: 53px;
+    width: 60px;
+    z-index: 50;
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.header-slider-wrapper div.slick-arrow.slick-prev {
+    height: 53px;
+    width: 60px;
+    left: 28px;
+    z-index: 60;
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.header-slider-wrapper div.slick-arrow.slick-prev::before {
+    content: url("../../../assets/icons/header-slider-left-arrow.svg");
+    position: absolute;
+    left: 28px;
+}
