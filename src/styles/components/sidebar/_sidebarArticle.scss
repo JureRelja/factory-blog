@@ -1,0 +1,81 @@
+.dark-purple {
+    background-color: #3E3668;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style-type: none;
+        @include flex-row;
+        justify-content: space-between;
+        width: 100%;
+        column-gap: 23px;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: #fff;
+            font-family: $normal-font;
+            font-size: 14px;
+            border-bottom: 1px solid #605C81;
+
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+
+        .active {
+            color: $yellow;
+            border-bottom: 1px solid #786160;
+        }
+    }
+}
+    
+
+.sidebar-post {
+    border-bottom: 1px solid #605C81;
+    transition: 0.1s all ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $purple-active;
+    border-bottom: 1px solid #3E3668;
+    column-gap: 10px;
+    
+    .comment-icon-box {      
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 4px;
+
+        img {
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .title {
+        color: #fff;
+        font-family: $normal-font;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .post-img {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #fff;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: #3E3668;
+    }
+
+}
+
+    

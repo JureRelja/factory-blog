@@ -19,7 +19,7 @@ function Header() {
   const [activeCategory, setActiveCategory] = useState("News");
 
   return (
-    <>
+    <div>
       <div className="upper-header-row">
         <div className="wrapper">
           <div className="inner-wrapper">
@@ -64,7 +64,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

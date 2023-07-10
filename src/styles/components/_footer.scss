@@ -23,7 +23,7 @@
     row-gap: 5px;
 
     .tag-btn {
-        color: #666;
+        color: $accent-black;
         background-color: #333333;
         font-family: Varela;
         font-family: $normal-font;
@@ -76,6 +76,10 @@
     }
 }
 
+.logo-header {
+    margin-bottom: 8px;
+}
+
 
 .flex-column-grid {
 
@@ -105,16 +109,84 @@
             width: 28px;
             height: 43px;
         }
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
     }
 
         p {
-            color: #666;
+            color: $accent-black;
             font-family: $bold-font;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
+            line-height: 20px;
         }
+
+
+    .featured-posts {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 65px;
+        
+        .gray-border {
+            border-bottom: 1px solid #323232;
+        }
+
+        .featured-post {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            column-gap: 20px;
+            padding-bottom: 20px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
     
+            .date-title {
+                width: 100%;
+
+                .title {
+                    color: #CCC;
+                    font-family: $bold-font;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 20px;
+                }
+            }
+    
+            img {
+                width: 70px;
+                height: 70px;
+                border: 2px solid #fff;
+            }
+        }
+    }    
+}
+
+.footer-bottom {
+    border-top: 1px solid #323232;
+    color: #999999;
+    font-size: 12px;
+    font-family: $normal-font;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        column-gap: 5px;
+
+        li {
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        }
+    }
 }
 
 

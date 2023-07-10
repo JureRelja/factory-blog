@@ -1,0 +1,52 @@
+.sidebar-title {
+    color: #363F48;
+    font-family: $bold-font;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sidebar-social-wrapper {
+    div {
+        background-color: #DDD;
+        height: 40px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .icon-text {
+            h3 {
+                font-family: $bold-font;
+                font-size: 18px;
+                font-weight: 700;
+                color: #363F48;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+               height: 100%;
+                
+            }
+        }
+
+        .following-number {
+            width: 140px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $purple-active;
+
+            p{
+                margin: 0;
+                padding: 0 13px;
+                color: white;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $normal-font;
+            }
+        }  
+    }
+}

@@ -11,6 +11,7 @@
     .inner-wrapper {
         @include flex-row;
         justify-content: space-between;
+        height: 100%;
 
         .logo-wrapper {
             @include flex-row;
@@ -43,6 +44,7 @@
         }
     
         .search-nav {
+            height: 100%;
             @include flex-row;
             column-gap: 40px;
             font-style: normal;
@@ -74,7 +76,7 @@
                 @include flex-row;
                 background-color: #303030;
                 width: 62px;
-                height: 53px;
+                height: 100%;
 
                 .search {
                     width: 19px;

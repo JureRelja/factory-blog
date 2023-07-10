@@ -1,3 +1,16 @@
 .wrapper {
     width: 940px;
 }
+
+.header-banner {
+    border: 1px solid #D7D7D7;
+    color: #999;
+    font-family: $normal-font;
+    font-size: 14px;
+    height: 120px;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
