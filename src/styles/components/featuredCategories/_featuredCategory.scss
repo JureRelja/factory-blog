@@ -19,5 +19,13 @@
             cursor: pointer;
         }
     }
+
+    button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
 }
 
+.w-300 {
+    width: 302px;
+}
