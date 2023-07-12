@@ -79,6 +79,9 @@ function Footer() {
                   <button
                     key={tag}
                     className={`tag-btn ${tag == "Research" ? "active" : ""}`}
+                    onClick={(e) => {
+                      e.target.classList.toggle("active");
+                    }}
                   >
                     {tag}
                   </button>

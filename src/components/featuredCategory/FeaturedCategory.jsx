@@ -88,7 +88,7 @@ function FeaturedCategory({
             </button>
           </div>
         </div>
-        <div>
+        <div className="category-3-slider-wrapper">
           <Slider {...doubleCarouselSettings} ref={sliderRef1}>
             {categoryPosts.map((post) => (
               <FeaturedCategoryCard

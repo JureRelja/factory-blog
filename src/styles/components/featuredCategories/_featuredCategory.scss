@@ -30,6 +30,18 @@
     }
 }
 
+.category-3-slider-wrapper {
+    .slick-slider {
+        
+        &:nth-child(1) {
+            margin-right: -40px;
+        }
+     }
+     
+ 
+     
+}
+
 .w-300 {
     width: 302px;
 }

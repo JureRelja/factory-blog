@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import HeaderPostSlider from "../components/headerPostSlider/HeaderPostSlider";
 import { useParams } from "react-router-dom";
 import SmallBanner from "../components/banners/SmallBanner";
 import { posts } from "../assets/dummy-posts";
 import PreviewArticle from "../components/articles/PreviewArticle";
+import Pagination from "react-bootstrap/Pagination";
 
 function Category() {
   const { category } = useParams();
+
+  const [active, setActive] = useState(1);
+
+  let paginationItems = [];
+  for (let number = 1; number <= 10; number++) {
+    paginationItems.push(
+      <Pagination.Item
+        key={number}
+        active={number === active}
+        className="pagination-item"
+        linkClassName={`pagination-item ${number === active ? "active" : ""}`}
+        onClick={() => setActive(number)}
+      >
+        {number}
+      </Pagination.Item>
+    );
+  }
 
   // Capitalize first letter of category
   const categoryTitle = category.charAt(0).toUpperCase() + category.slice(1);
@@ -34,7 +52,9 @@ function Category() {
             ))}
 
             {/* Pagination */}
-            <div>pagination</div>
+            <Pagination className="pagination-items">
+              {paginationItems}
+            </Pagination>
           </div>
 
           {/* Banner */}

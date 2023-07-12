@@ -1,3 +1,26 @@
 .category-title {
     padding: 15px 0 0 30px;
 }
+
+.pagination-items {
+    margin: 32px 0 32px 30px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+
+    .pagination-item {
+        color: $purple-active;
+        background-color: #DDD;
+        border: none;
+
+        &:hover {
+            color: $secondary-white;
+            background-color: $purple-active;
+        }
+    }
+
+    .active {
+        color: $secondary-white;
+        background-color: $purple-active;
+    }
+}
