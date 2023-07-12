@@ -11,6 +11,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { randomPosts, featuredPosts } from "../assets/dummy-posts";
+import { Link } from "react-router-dom";
 
 const dummy_tags = [
   "Design",
@@ -40,10 +41,12 @@ function Footer() {
         <div className="wrapper">
           <Row>
             <Col className="flex-column-grid">
-              <div className="footer-logo-wrapper logo-header">
-                <img src={blueLogo} alt="logo" />
-                <h2>Kenaz</h2>
-              </div>
+              <Link to="/">
+                <div className="footer-logo-wrapper logo-header">
+                  <img src={blueLogo} alt="logo" />
+                  <h2>Kenaz</h2>
+                </div>
+              </Link>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 

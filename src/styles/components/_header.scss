@@ -13,6 +13,11 @@
         justify-content: space-between;
         height: 100%;
 
+        a {
+            text-decoration: none;
+            color: $secondary-white;
+        }
+
         .logo-wrapper {
             @include flex-row;
             column-gap: 10px; 
@@ -58,7 +63,7 @@
                 column-gap: 40px;
                 padding: 0;
                 margin: 0;
-                
+                   
                 li {
                     font-style: normal;
                     font-weight: 400;
@@ -114,23 +119,31 @@
             padding: 0;
             margin: 0;
 
-            li {
-                text-transform: uppercase;
-                font-weight: 700;
-                font-size: 18px;
-                font-family: $bold-font;
+            a {
+                text-decoration: none;
+                color: $secondary-white;
                 height: 100%;
-                padding: 0 10px;
-                position: relative;  
-                display: inline-block; 
-                z-index: 5;
-                @include flex-row;
-                overflow: hidden;
-
-                &:hover {
-                    cursor: pointer;   
+                
+                li {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 18px;
+                    font-family: $bold-font;
+                    height: 100%;
+                    padding: 0 10px;
+                    position: relative;  
+                    display: inline-block; 
+                    z-index: 5;
+                    @include flex-row;
+                    overflow: hidden;
+    
+                    &:hover {
+                        cursor: pointer;   
+                    }
                 }
             }
+
+            
 
             @for $i from 1 through length($category-colors) {
             
@@ -161,9 +174,7 @@
                     }
                 }
             }
-        }
-
-        
+        }    
     }
 }
 

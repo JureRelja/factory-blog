@@ -9,12 +9,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef } from "react";
 import { featuredPosts } from "../../assets/dummy-posts";
+import { Link } from "react-router-dom";
 
 function FeaturedCategory({
   categoryPosts,
   categoryTitle,
   borderColor,
   variant,
+  path,
 }) {
   // Featured category 1 and 2
   if (variant == 1 || variant == 2)
@@ -24,7 +26,9 @@ function FeaturedCategory({
       >
         <div className="d-flex justify-content-between align-items-center featured-category-title-wrapper">
           <h2>{categoryTitle}</h2>
-          <span>See all</span>
+          <Link to={path}>
+            <span>See all</span>
+          </Link>
         </div>
         {variant == 1 ? (
           <div className="d-flex justify-content-between align-items-top">

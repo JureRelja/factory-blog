@@ -4,7 +4,7 @@ import commentIcon from "../../assets/icons/comment_v2.svg";
 
 function SidebarArticles() {
   return (
-    <div>
+    <div className="h-667">
       <div className="dark-purple py-3 px-4">
         <ul>
           <li className="active">Popular</li>

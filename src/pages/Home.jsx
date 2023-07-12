@@ -5,16 +5,20 @@ import FeaturedCategory from "../components/featuredCategory/FeaturedCategory";
 import { posts } from "../assets/dummy-posts";
 import SmallBanner from "../components/banners/SmallBanner";
 import LargeBanner from "../components/banners/LargeBanner";
-import BottomSlider from "../components/bottomSlider/BottomSlider";
+import BottomSlider from "../components/BottomSlider";
 
 const featuredCategories1 = [
-  { title: "News", border: "border-blue" },
-  { title: "Sport", border: "border-green" },
+  { title: "News", border: "border-blue", path: "/news" },
+  { title: "Sport", border: "border-green", path: "/sport" },
 ];
 
-const featuredCategories2 = [{ title: "Business", border: "border-red" }];
+const featuredCategories2 = [
+  { title: "Business", border: "border-red", path: "/business" },
+];
 
-const featuredCategories3 = [{ title: "News", border: "border-yellow" }];
+const featuredCategories3 = [
+  { title: "News Carousel", border: "border-yellow" },
+];
 
 const featuredCategories4 = [
   {
@@ -44,6 +48,7 @@ function Home() {
               categoryPosts={posts}
               borderColor={category.border}
               variant={1}
+              path={category.path}
             />
           ))}
           {/* Banner */}
@@ -56,6 +61,7 @@ function Home() {
               categoryPosts={posts}
               borderColor={category.border}
               variant={2}
+              path={category.path}
             />
           ))}
           {/* Banner */}

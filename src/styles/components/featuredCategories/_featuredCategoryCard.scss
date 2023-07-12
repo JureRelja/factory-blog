@@ -26,6 +26,7 @@
 
     img {
         width: 170px;
+        height: 128px;
     }
 }
 
@@ -59,8 +60,6 @@
     }
 }
 
-
-
 .featured-category-4-wrapper {
     transition: all 0.1s ease-in-out;
     width: 100%;
@@ -76,12 +75,3 @@
     }
 }
 
-  /* the slides */
-.slick-slide {
-    width: 100%;
-}
-
-/* the parent */
-.slick-list {
-    width: 100%;
-}
