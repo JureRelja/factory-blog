@@ -8,7 +8,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef } from "react";
-import { featuredPosts } from "../../assets/dummy-posts";
 import { Link } from "react-router-dom";
 
 function FeaturedCategory({
@@ -138,7 +137,7 @@ function FeaturedCategory({
         </div>
         <div>
           <Slider {...singleCarousleSettings} ref={sliderRef2}>
-            {featuredPosts.map((post) => (
+            {categoryPosts.map((post) => (
               <FeaturedCategoryCard
                 key={post.id}
                 categoryPost={post}

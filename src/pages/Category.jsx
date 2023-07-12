@@ -4,7 +4,7 @@ import HeaderPostSlider from "../components/headerPostSlider/HeaderPostSlider";
 import { useParams } from "react-router-dom";
 import SmallBanner from "../components/banners/SmallBanner";
 import { posts } from "../assets/dummy-posts";
-import PreviewArticle from "../components/articles/PreviewArticle";
+import PreviewArticle from "../components/PreviewArticle";
 import Pagination from "react-bootstrap/Pagination";
 
 function Category() {

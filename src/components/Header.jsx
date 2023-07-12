@@ -52,9 +52,8 @@ function Header() {
           <div className="categories-wrapper">
             <ul>
               {categories.map((category, index) => (
-                <Link to={`/${category.path}`}>
+                <Link to={`/${category.path}`} key={category.path}>
                   <li
-                    key={category.title}
                     className={
                       category.title == activeCategory
                         ? `active-category-${index + 1}`

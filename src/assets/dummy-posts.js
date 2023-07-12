@@ -5,7 +5,7 @@ export const posts =
             id: 1,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/landscape1.jpg",
             commentsNum: 4,
             author: "Jure Reljanovic",
             category: "sport",
@@ -25,7 +25,7 @@ export const posts =
             id: 3,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image1.jpg",
             commentsNum: 4,
             category: "sport",
             author: "Jure Reljanovic",
@@ -35,7 +35,7 @@ export const posts =
             id: 4,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image2.jpg",
             commentsNum: 4,
             category: "business",
             author: "Jure Reljanovic",
@@ -45,7 +45,7 @@ export const posts =
             id: 5,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image3.jpg",
             commentsNum: 4,
             category: "business",
             author: "Jure Reljanovic",
@@ -55,7 +55,7 @@ export const posts =
             id: 6,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image3.jpg",
             commentsNum: 4,
             category: "business",
             author: "Jure Reljanovic",
@@ -65,7 +65,7 @@ export const posts =
             id: 7,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image1.jpg",
             commentsNum: 4,
             category: "business",
             author: "Jure Reljanovic",
@@ -75,7 +75,7 @@ export const posts =
             id: 8,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image5.jpg",
             commentsNum: 4,
             category: "life",
             author: "Jure Reljanovic",
@@ -85,7 +85,7 @@ export const posts =
             id: 9,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image10.jpg",
             commentsNum: 4,
             category: "tech",
             author: "Jure Reljanovic",
@@ -95,7 +95,7 @@ export const posts =
             id: 10,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image7.jpg",
             commentsNum: 4,
             category: "tech",
             author: "Jure Reljanovic",
@@ -105,7 +105,7 @@ export const posts =
             id: 11,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image6.jpg",
             commentsNum: 4,
             category: "travel",
             author: "Jure Reljanovic",
@@ -115,7 +115,7 @@ export const posts =
             id: 12,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image1.jpg",
             commentsNum: 4,
             category: "tech",
             author: "Jure Reljanovic",
@@ -125,7 +125,7 @@ export const posts =
             id: 13,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/landscape1.jpg",
             commentsNum: 4,
             category: "tech",
             author: "Jure Reljanovic",
@@ -145,7 +145,7 @@ export const posts =
             id: 15,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image4.jpg",
             commentsNum: 4,
             author: "Jure Reljanovic",
             category: "news",
@@ -155,7 +155,7 @@ export const posts =
             id: 16,
             postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image5.jpg",
             commentsNum: 4,
             category: "news",
             author: "Jure Reljanovic",
@@ -165,7 +165,7 @@ export const posts =
             id: 17,
             postTitle: "Palestinians call off peace talks after clash",
             createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
+            featuredImage:  "src/assets/dummyImages/image7.jpg",
             commentsNum: 4,
             category: "news",
             author: "Jure Reljanovic",
@@ -173,89 +173,3 @@ export const posts =
         },
 
     ]
-
- export const featuredPosts = [
-        {
-            id: 1,
-            postTitle: "Palestinians call off peace talks after clash",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
-            commentsNum: 4
-        },
-        {
-            id: 2,
-            postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-            commentsNum: 4
-        },
-        {
-            id: 3,
-            postTitle: "Palestinians call off peace talks after clash",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
-            commentsNum: 4
-        }
-    ]
-
-export const randomPosts = [
-        {
-            id: 1,
-            postTitle: "Palestinians call off peace talks after clash",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-            commentsNum: 4
-        },
-        {
-            id: 2,
-            postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape2.jpg",
-            commentsNum: 2
-        },
-        {
-            id: 3,
-            postTitle: "Palestinians call off peace talks after clash",
-            createdDate: "August 26, 2013",
-            featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-            commentsNum: 4
-        }
-    ]
-
-
-export const sidebarPosts = [
-    {
-        id: 1,
-        postTitle: "Palestinians call off peace talks after clash",
-        createdDate: "August 26, 2013",
-        featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-        commentsNum: 4
-    },
-    {
-        id: 2,
-        postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
-        createdDate: "August 26, 2013",
-        featuredImage:  "src/assets/dummyImages/landscape2.jpg",
-        commentsNum: 5
-    },
-    {
-        id: 3,
-        postTitle: "Palestinians call off peace talks after clash",
-        createdDate: "August 26, 2013",
-        featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-        commentsNum: 6
-    },{
-        id: 4,
-        postTitle: "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
-        createdDate: "August 26, 2013",
-        featuredImage:  "src/assets/dummyImages/landscape2.jpg",
-        commentsNum: 7
-    },
-    {
-        id: 5,
-        postTitle: "Palestinians call off peace talks after clash",
-        createdDate: "August 26, 2013",
-        featuredImage:  "src/assets/dummyImages/landscape1.jpg",
-        commentsNum: 8
-    }
-]

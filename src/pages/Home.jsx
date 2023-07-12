@@ -2,32 +2,52 @@ import React from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import HeaderPostSlider from "../components/headerPostSlider/HeaderPostSlider";
 import FeaturedCategory from "../components/featuredCategory/FeaturedCategory";
-import { posts } from "../assets/dummy-posts";
 import SmallBanner from "../components/banners/SmallBanner";
 import LargeBanner from "../components/banners/LargeBanner";
 import BottomSlider from "../components/BottomSlider";
+import { posts } from "../assets/dummy-posts";
+
+const newsPosts = posts.filter((post) => post.category == "news").slice(0, 3);
+const sportsPosts = posts
+  .filter((post) => post.category == "sport")
+  .slice(0, 3);
+const businessPosts = posts
+  .filter((post) => post.category == "business")
+  .slice(0, 4);
 
 const featuredCategories1 = [
-  { title: "News", border: "border-blue", path: "/news" },
-  { title: "Sport", border: "border-green", path: "/sport" },
+  { title: "News", border: "border-blue", path: "/news", posts: newsPosts },
+  {
+    title: "Sport",
+    border: "border-green",
+    path: "/sport",
+    posts: sportsPosts,
+  },
 ];
 
 const featuredCategories2 = [
-  { title: "Business", border: "border-red", path: "/business" },
+  {
+    title: "Business",
+    border: "border-red",
+    path: "/business",
+    posts: businessPosts,
+  },
 ];
 
 const featuredCategories3 = [
-  { title: "News Carousel", border: "border-yellow" },
+  { title: "News Carousel", border: "border-yellow", posts: newsPosts },
 ];
 
 const featuredCategories4 = [
   {
     title: "News",
     border: "border-brown",
+    posts: newsPosts,
   },
   {
     title: "Sport",
     border: "border-brown",
+    posts: newsPosts,
   },
 ];
 
@@ -45,7 +65,7 @@ function Home() {
             <FeaturedCategory
               key={category.title}
               categoryTitle={category.title}
-              categoryPosts={posts}
+              categoryPosts={category.posts}
               borderColor={category.border}
               variant={1}
               path={category.path}
@@ -58,7 +78,7 @@ function Home() {
             <FeaturedCategory
               key={category.title}
               categoryTitle={category.title}
-              categoryPosts={posts}
+              categoryPosts={category.posts}
               borderColor={category.border}
               variant={2}
               path={category.path}
@@ -71,7 +91,7 @@ function Home() {
             <FeaturedCategory
               key={category.title}
               categoryTitle={category.title}
-              categoryPosts={posts}
+              categoryPosts={category.posts}
               borderColor={category.border}
               variant={3}
             />
@@ -83,7 +103,7 @@ function Home() {
               <FeaturedCategory
                 key={category.title}
                 categoryTitle={category.title}
-                categoryPosts={posts}
+                categoryPosts={category.posts}
                 borderColor={category.border}
                 variant={4}
               />

@@ -60,6 +60,11 @@
             font-family: $normal-font;
             padding: 8px 21px;
             width: 125px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
         }
     }
 }

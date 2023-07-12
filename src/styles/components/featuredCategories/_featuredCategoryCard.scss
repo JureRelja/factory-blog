@@ -1,3 +1,9 @@
+.featured-category-card-link {
+    text-decoration: none;
+    color: $primary-black;
+    
+}
+
 .post-content {
     div {
         color: $accent-black;
@@ -6,13 +12,12 @@
     }
 
     h3 {
-        color: &primary-black;
+        color: $primary-black;
         font-family: &bold-font;
         font-weight: bold;
         font-size: 14px;
         margin: 0;
     }
-    
 }
 
 .featured-category-1-wrapper {

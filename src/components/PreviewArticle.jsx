@@ -1,5 +1,6 @@
 import React from "react";
-import calendar from "../../assets/icons/calendar.svg";
+import calendar from "../assets/icons/calendar.svg";
+import { Link } from "react-router-dom";
 
 function PreviewArticle({ article }) {
   return (
@@ -17,7 +18,9 @@ function PreviewArticle({ article }) {
         <img src={article.featuredImage} />
         <div className="d-flex flex-column justify-content-start align-items-top gap-3">
           <p>{article.postContent.substring(0, 400)}</p>
-          <button>Read article</button>
+          <Link to={`/${article.category}/${article.id}`}>
+            <button>Read article</button>
+          </Link>
         </div>
       </div>
     </div>

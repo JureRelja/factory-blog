@@ -10,7 +10,7 @@ import skype from "../assets/icons/skype_v2.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { randomPosts, featuredPosts } from "../assets/dummy-posts";
+import { posts } from "../assets/dummy-posts";
 import { Link } from "react-router-dom";
 
 const dummy_tags = [
@@ -27,6 +27,9 @@ const dummy_tags = [
   "SEO",
   "Social Media",
 ];
+
+const featuredPosts = posts.slice(0, 3);
+const randomPosts = posts.slice(3, 6);
 
 function Footer() {
   return (
@@ -95,23 +98,25 @@ function Footer() {
               <h2>Featured</h2>
               <div className="featured-posts">
                 {featuredPosts.map((post, index) => (
-                  <div
-                    className={`featured-post ${
-                      index + 1 < featuredPosts.length ? "gray-border" : ""
-                    }`}
-                    key={post.id}
-                  >
-                    <div className="date-title ">
-                      <div className="d-flex justify-content-between">
-                        <p className="p-0 mb-1 meta-text-footer">
-                          {post.createdDate}
-                        </p>
-                        <p className="p-0 m-0">{post.commentsNum}</p>
+                  <Link to={`/${post.category}/${post.id}`} key={post.id}>
+                    <div
+                      className={`featured-post ${
+                        index + 1 < featuredPosts.length ? "gray-border" : ""
+                      }`}
+                      key={post.id}
+                    >
+                      <div className="date-title ">
+                        <div className="d-flex justify-content-between">
+                          <p className="p-0 mb-1 meta-text-footer">
+                            {post.createdDate}
+                          </p>
+                          <p className="p-0 m-0">{post.commentsNum}</p>
+                        </div>
+                        <p className="title">{post.postTitle}</p>
                       </div>
-                      <p className="title">{post.postTitle}</p>
+                      <img src={post.featuredImage} alt="featured" />
                     </div>
-                    <img src={post.featuredImage} alt="featured" />
-                  </div>
+                  </Link>
                 ))}
               </div>
             </Col>
@@ -119,23 +124,25 @@ function Footer() {
               <h2>Random posts</h2>
               <div className="featured-posts">
                 {randomPosts.map((post, index) => (
-                  <div
-                    className={`featured-post ${
-                      index + 1 < randomPosts.length ? "gray-border" : ""
-                    }`}
-                    key={post.id}
-                  >
-                    <div className="date-title">
-                      <div className="d-flex justify-content-between date-title">
-                        <p className="meta-text-footer p-0 mb-1">
-                          {post.createdDate}
-                        </p>
-                        <p className="p-0 m-0">{post.commentsNum}</p>
+                  <Link to={`/${post.category}/${post.id}`} key={post.id}>
+                    <div
+                      className={`featured-post ${
+                        index + 1 < randomPosts.length ? "gray-border" : ""
+                      }`}
+                      key={post.id}
+                    >
+                      <div className="date-title">
+                        <div className="d-flex justify-content-between date-title">
+                          <p className="meta-text-footer p-0 mb-1">
+                            {post.createdDate}
+                          </p>
+                          <p className="p-0 m-0">{post.commentsNum}</p>
+                        </div>
+                        <p className="title">{post.postTitle}</p>
                       </div>
-                      <p className="title">{post.postTitle}</p>
+                      <img src={post.featuredImage} alt="featured" />
                     </div>
-                    <img src={post.featuredImage} alt="featured" />
-                  </div>
+                  </Link>
                 ))}
               </div>
             </Col>

@@ -3,9 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeaderSliderCard from "./HeaderSliderCard";
-import { featuredPosts } from "../../assets/dummy-posts";
+import { posts } from "../../assets/dummy-posts";
 import headerSliderLeft from "../../assets/icons/header-slider-left-arrow.svg";
 import headerSliderRight from "../../assets/icons/header-slider-right-arrow.svg";
+import { Link } from "react-router-dom";
 
 function PrevArrow(props) {
   const { className, style, onClick } = props;
@@ -33,6 +34,8 @@ function NextArrow(props) {
   );
 }
 
+const featuredPosts = posts.slice(0, 5);
+
 function HeaderPostSlider() {
   const settings = {
     dots: false,
@@ -48,13 +51,14 @@ function HeaderPostSlider() {
     <div className="header-slider-wrapper">
       <Slider {...settings}>
         {featuredPosts.map((post) => (
-          <HeaderSliderCard
-            key={post.id}
-            title={post.postTitle}
-            date={post.createdDate}
-            img={post.featuredImage}
-            commentsNumber={post.commentsNum}
-          />
+          <Link to={`/${post.category}/${post.id}`} key={post.id}>
+            <HeaderSliderCard
+              title={post.postTitle}
+              date={post.createdDate}
+              img={post.featuredImage}
+              commentsNumber={post.commentsNum}
+            />
+          </Link>
         ))}
       </Slider>
     </div>
