@@ -31,12 +31,15 @@
 }
 
 .category-3-slider-wrapper {
-    .slick-slider {
-        
-        &:nth-child(1) {
-            margin-right: -40px;
-        }
-     }
+    max-width: 100%;
+
+     .slick-slider {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .slick-slide {
+        padding: 15px;
+    }
 }
 
 .w-300 {

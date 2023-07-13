@@ -1,0 +1,29 @@
+.author-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 18px 0 31px 31px;
+    background-color: white;
+    row-gap: 30px;
+
+    .author-info-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 20px;
+
+        img {
+            width: 110px;
+            height: 110px;
+        }
+
+        p {
+            color: #444;
+            font-family: $normal-font;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 3px;
+        }
+    }
+}

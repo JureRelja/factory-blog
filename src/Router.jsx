@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./components/RootLayout.jsx";
 import Home from "./pages/Home.jsx";
 import Category from "./pages/Category.jsx";
-import SingleArticle from "./pages/SingleArticle.jsx";
+import FullArticle from "./pages/FullArticle.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         element: <Category />,
       },
       {
-        path: "/:category/:id",
-        element: <SingleArticle />,
+        path: "/:category/:articleId",
+        element: <FullArticle />,
       },
     ],
   },

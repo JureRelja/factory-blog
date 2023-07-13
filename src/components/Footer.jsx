@@ -42,10 +42,10 @@ function Footer() {
 
       <Container fluid className="footer">
         <div className="wrapper">
-          <Row>
-            <Col className="flex-column-grid">
+          <Row className="gap-3">
+            <Col className="footer-column pe-0 gap-3">
               <Link to="/">
-                <div className="footer-logo-wrapper logo-header">
+                <div className="footer-logo-wrapper">
                   <img src={blueLogo} alt="logo" />
                   <h2>Kenaz</h2>
                 </div>
@@ -53,7 +53,7 @@ function Footer() {
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 
-              <div className="d-flex gap-1">
+              <div className="d-flex justify-content-between w-100">
                 <img src={rss} alt="rss" className="footer-icon" />
                 <img src={facebook} alt="facebook" className="footer-icon" />
                 <img src={twitter} alt="twitter" className="footer-icon" />
@@ -63,19 +63,19 @@ function Footer() {
                 <img src={skype} alt="skype" className="footer-icon" />
               </div>
             </Col>
-            <Col className="flex-column-grid ">
+            <Col className="footer-column px-0 gap-3">
               <h2>Newsletter</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 leo ante...
               </p>
-              <div className="newsletter-input">
+              <div className="newsletter-input ">
                 <input type="text" placeholder="Your mail" />
                 <button>Subscribe</button>
               </div>
             </Col>
 
-            <Col className="flex-column-grid ">
+            <Col className="footer-column ps-0 gap-3">
               <h2>Tags Widget</h2>
               <div className="tag-btn-container">
                 {dummy_tags.map((tag) => (
@@ -94,7 +94,7 @@ function Footer() {
           </Row>
 
           <Row className="mt-5">
-            <Col className="flex-column-grid">
+            <Col className="footer-column">
               <h2>Featured</h2>
               <div className="featured-posts">
                 {featuredPosts.map((post, index) => (
@@ -120,7 +120,7 @@ function Footer() {
                 ))}
               </div>
             </Col>
-            <Col className="flex-column-grid">
+            <Col className="footer-column">
               <h2>Random posts</h2>
               <div className="featured-posts">
                 {randomPosts.map((post, index) => (
