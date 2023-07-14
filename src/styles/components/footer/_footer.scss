@@ -8,7 +8,6 @@
     padding: 57px 0 67px 0;
     background-color: $background-black;
 
-
     .footer-column {
         display: flex;
         flex-direction: column;
@@ -39,7 +38,7 @@
             font-size: &heading-size;
             font-family: &bold-font;
         }
-
+        
         .footer-logo-wrapper {
             @include flex-row;
             justify-content: flex-start;

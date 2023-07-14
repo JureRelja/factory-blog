@@ -43,7 +43,7 @@ function Category() {
           <div className="bg-body">
             {/* Category title */}
             <div className="category-title">
-              <h2 className="articleHeading">{categoryTitle}</h2>
+              <h2 className="heading">{categoryTitle}</h2>
             </div>
 
             {/* List of articles */}
