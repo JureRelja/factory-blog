@@ -15,7 +15,7 @@ function SidebarArticles() {
   };
 
   return (
-    <div className="h-618">
+    <div className="bg-purple">
       <div className="dark-purple py-3 px-4">
         <ul>
           {sortingOptions.map((option) => (

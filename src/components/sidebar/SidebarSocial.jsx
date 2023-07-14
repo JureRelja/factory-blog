@@ -6,7 +6,7 @@ import youtube from "../../assets/icons/youtube_v2.svg";
 function SidebarSocial() {
   return (
     <div>
-      <h2 className="sidebar-title">Social</h2>
+      <h2 className="heading mb-3">Social</h2>
       <div className="d-flex flex-column sidebar-social-wrapper gap-2">
         <div className="d-flex justify-content-between gap-3">
           <div className="d-flex justify-content-center align-items-center gap-3 icon-text">

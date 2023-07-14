@@ -24,7 +24,7 @@ function FeaturedCategory({
         className={`d-flex flex-column gap-3 w-100 bg-body p-4 ${borderColor}`}
       >
         <div className="d-flex justify-content-between align-items-center featured-category-title-wrapper">
-          <h2>{categoryTitle}</h2>
+          <h2 className="heading mb-2">{categoryTitle}</h2>
           <Link to={path}>
             <span>See all</span>
           </Link>
@@ -71,7 +71,7 @@ function FeaturedCategory({
         className={`d-flex flex-column gap-3 w-100 bg-body p-4 ${borderColor}`}
       >
         <div className="d-flex justify-content-between align-items-center featured-category-title-wrapper">
-          <h2>{categoryTitle}</h2>
+          <h2 className="heading">{categoryTitle}</h2>
           <div className="d-flex gap-3">
             <button
               onClick={() => sliderRef1.current.slickPrev()}

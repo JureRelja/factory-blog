@@ -22,6 +22,7 @@ function Header() {
 
   return (
     <div>
+      {/* Header row logo and navigation */}
       <div className="upper-header-row">
         <div className="wrapper">
           <div className="inner-wrapper">
@@ -47,6 +48,7 @@ function Header() {
           </div>
         </div>
       </div>
+      {/* Header row with category links */}
       <div className="lower-header-row">
         <div className="wrapper">
           <div className="categories-wrapper">

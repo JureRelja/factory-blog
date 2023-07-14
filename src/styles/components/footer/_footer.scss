@@ -8,7 +8,13 @@
     padding: 57px 0 67px 0;
     background-color: $background-black;
 
+
     .footer-column {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: flex-start;
+        justify-content: flex-start;
 
         a {
             text-decoration: none;
@@ -141,46 +147,30 @@
             flex-direction: column;
             row-gap: 20px;
             margin-bottom: 65px;
-
-            a {
-                text-decoration: none;
-            }
-            
-            .gray-border {
-                border-bottom: 1px solid #323232;
-            }
-
-            .featured-post {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-                column-gap: 20px;
-                padding-bottom: 20px;
-
-                &:hover {
-                    cursor: pointer;
-                    opacity: 0.8;
-                }
-        
-                .date-title {
-                    width: 100%;
-
-                    .title {
-                        color: #CCC;
-                        font-family: $bold-font;
-                        font-size: 14px;
-                        font-weight: bold;
-                        line-height: 20px;
-                    }
-                }
-        
-                img {
-                    width: 70px;
-                    height: 70px;
-                    border: 2px solid #fff;
-                }
-            }
         }    
+
+        .twitter-feed-wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+
+            div {
+                p {
+                    color: $accent-black;
+                    font-family: $bold-font;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+
+            .twitter-post-content {
+                color: #CCC;
+                font-size: 13px;
+                font-family: $normal-font;
+                line-height: 18px;
+            }
+
+        }
     }
 
     .footer-bottom {

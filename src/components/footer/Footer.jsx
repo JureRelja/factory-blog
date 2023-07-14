@@ -1,17 +1,19 @@
 import React from "react";
-import blueLogo from "../assets/icons/logo-blue.svg";
-import rss from "../assets/icons/rss_v2.svg";
-import facebook from "../assets/icons/facebook_v2.svg";
-import twitter from "../assets/icons/twitter_v2.svg";
-import dribble from "../assets/icons/dribble_v2.svg";
-import linkedin from "../assets/icons/linkedin_v2.svg";
-import youtube from "../assets/icons/youtube_v2.svg";
-import skype from "../assets/icons/skype_v2.svg";
+import blueLogo from "../../assets/icons/logo-blue.svg";
+import rss from "../../assets/icons/rss_v2.svg";
+import facebook from "../../assets/icons/facebook_v2.svg";
+import twitter from "../../assets/icons/twitter_v2.svg";
+import dribble from "../../assets/icons/dribble_v2.svg";
+import linkedin from "../../assets/icons/linkedin_v2.svg";
+import youtube from "../../assets/icons/youtube_v2.svg";
+import skype from "../../assets/icons/skype_v2.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { posts } from "../assets/dummy-posts";
+import { posts } from "../../assets/dummy-posts";
 import { Link } from "react-router-dom";
+import smallTwitterLogo from "../../assets/icons/small-twitter-logo.svg";
+import FooterPost from "./FooterPost";
 
 const dummy_tags = [
   "Design",
@@ -26,6 +28,29 @@ const dummy_tags = [
   "UI/UX",
   "SEO",
   "Social Media",
+];
+
+const twitterPosts = [
+  {
+    id: 1,
+    authorName: "Evanto",
+    authorTag: "@envato",
+    content:
+      "Is this your typical million dollar day in the park? http://enva.to/150vxFC Happy @TrueThemes Day! #ThemeForest pic.twitter.com/EHz7awxOXy",
+  },
+  {
+    id: 2,
+    authorName: "Evanto",
+    authorTag: "@envato",
+    content: "Happy TrueThemes Day http://enva.to/1dRzgLD",
+  },
+  {
+    id: 3,
+    authorName: "Evanto",
+    authorTag: "@envato",
+    content:
+      "@robscri I would really want to look into what's taking so long. Thank you ever so much! ^TC",
+  },
 ];
 
 const featuredPosts = posts.slice(0, 3);
@@ -43,7 +68,8 @@ function Footer() {
       <Container fluid className="footer">
         <div className="wrapper">
           <Row className="gap-3">
-            <Col className="footer-column pe-0 gap-3">
+            {/* Logo column */}
+            <Col className="footer-column pe-0">
               <Link to="/">
                 <div className="footer-logo-wrapper">
                   <img src={blueLogo} alt="logo" />
@@ -63,7 +89,8 @@ function Footer() {
                 <img src={skype} alt="skype" className="footer-icon" />
               </div>
             </Col>
-            <Col className="footer-column px-0 gap-3">
+            {/* Newsletter column */}
+            <Col className="footer-column px-0">
               <h2>Newsletter</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -74,8 +101,8 @@ function Footer() {
                 <button>Subscribe</button>
               </div>
             </Col>
-
-            <Col className="footer-column ps-0 gap-3">
+            {/* Tags column */}
+            <Col className="footer-column ps-0">
               <h2>Tags Widget</h2>
               <div className="tag-btn-container">
                 {dummy_tags.map((tag) => (
@@ -94,55 +121,49 @@ function Footer() {
           </Row>
 
           <Row className="mt-5">
+            {/* Featured posts column */}
             <Col className="footer-column">
               <h2>Featured</h2>
               <div className="featured-posts">
                 {featuredPosts.map((post, index) => (
-                  <Link to={`/${post.category}/${post.id}`} key={post.id}>
-                    <div
-                      className={`featured-post ${
-                        index + 1 < featuredPosts.length ? "gray-border" : ""
-                      }`}
-                      key={post.id}
-                    >
-                      <div className="date-title ">
-                        <div className="d-flex justify-content-between">
-                          <p className="p-0 mb-1 meta-text-footer">
-                            {post.createdDate}
-                          </p>
-                          <p className="p-0 m-0">{post.commentsNum}</p>
-                        </div>
-                        <p className="title">{post.postTitle}</p>
-                      </div>
-                      <img src={post.featuredImage} alt="featured" />
-                    </div>
-                  </Link>
+                  <FooterPost
+                    post={post}
+                    index={index}
+                    postsLength={featuredPosts.length}
+                    key={post.id}
+                  />
                 ))}
               </div>
             </Col>
+            {/* Random posts column */}
             <Col className="footer-column">
               <h2>Random posts</h2>
               <div className="featured-posts">
                 {randomPosts.map((post, index) => (
-                  <Link to={`/${post.category}/${post.id}`} key={post.id}>
-                    <div
-                      className={`featured-post ${
-                        index + 1 < randomPosts.length ? "gray-border" : ""
-                      }`}
-                      key={post.id}
-                    >
-                      <div className="date-title">
-                        <div className="d-flex justify-content-between date-title">
-                          <p className="meta-text-footer p-0 mb-1">
-                            {post.createdDate}
-                          </p>
-                          <p className="p-0 m-0">{post.commentsNum}</p>
-                        </div>
-                        <p className="title">{post.postTitle}</p>
-                      </div>
-                      <img src={post.featuredImage} alt="featured" />
+                  <FooterPost
+                    post={post}
+                    index={index}
+                    postsLength={featuredPosts.length}
+                    key={post.id}
+                  />
+                ))}
+              </div>
+            </Col>
+            {/* Twitter feed column */}
+            <Col className="footer-column">
+              <h2>Twitter Feed</h2>
+              <div className="d-flex flex-column gap-5">
+                {twitterPosts.map((post) => (
+                  <div className="twitter-feed-wrapper" key={post.id}>
+                    <div className="d-flex justify-content-start align-items-center gap-1">
+                      <img src={smallTwitterLogo} alt="twitter" />
+                      <p className="p-0 m-0">{post.authorName}</p>
+                      <p className="p-0 m-0">{post.authorTag}</p>
                     </div>
-                  </Link>
+                    <p className="p-0 m-0 twitter-post-content">
+                      {post.content}
+                    </p>
+                  </div>
                 ))}
               </div>
             </Col>

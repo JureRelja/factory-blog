@@ -1,0 +1,42 @@
+
+.footer-post-wrapper {
+
+    a {
+        text-decoration: none; 
+    }
+    
+    .gray-border {
+        border-bottom: 1px solid #323232;
+    }
+    
+    .featured-post {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 20px;
+        padding-bottom: 20px;
+    
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    
+        .date-title {
+            width: 100%;
+    
+            .title {
+                color: #CCC;
+                font-family: $bold-font;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 20px;
+            }
+        }
+    
+        img {
+            width: 70px;
+            height: 70px;
+            border: 2px solid #fff;
+        }
+    }
+}
