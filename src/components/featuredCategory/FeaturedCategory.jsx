@@ -11,7 +11,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 function FeaturedCategory({
-  categoryPosts,
+  categoryArticles,
   categoryTitle,
   borderColor,
   variant,
@@ -31,20 +31,20 @@ function FeaturedCategory({
         </div>
         {variant == 1 ? (
           <div className="d-flex justify-content-between align-items-top">
-            {categoryPosts.slice(0, 3).map((post) => (
+            {categoryArticles.slice(0, 3).map((article) => (
               <FeaturedCategoryCard
-                key={post.id}
-                categoryPost={post}
+                key={article.id}
+                categoryArticle={article}
                 variant={variant}
               />
             ))}
           </div>
         ) : (
           <div className="d-flex align-items-top justify-content-between flex-wrap gap-4">
-            {categoryPosts.slice(0, 4).map((post) => (
+            {categoryArticles.slice(0, 4).map((article) => (
               <FeaturedCategoryCard
-                key={post.id}
-                categoryPost={post}
+                key={article.id}
+                categoryArticle={article}
                 variant={variant}
               />
             ))}
@@ -89,10 +89,10 @@ function FeaturedCategory({
         </div>
         <div className="category-3-slider-wrapper">
           <Slider {...doubleCarouselSettings} ref={sliderRef1}>
-            {categoryPosts.map((post) => (
+            {categoryArticles.map((article) => (
               <FeaturedCategoryCard
-                key={post.id}
-                categoryPost={post}
+                key={article.id}
+                categoryArticle={article}
                 variant={variant}
               />
             ))}
@@ -137,10 +137,10 @@ function FeaturedCategory({
         </div>
         <div>
           <Slider {...singleCarousleSettings} ref={sliderRef2}>
-            {categoryPosts.map((post) => (
+            {categoryArticles.map((article) => (
               <FeaturedCategoryCard
-                key={post.id}
-                categoryPost={post}
+                key={article.id}
+                categoryArticle={article}
                 variant={variant}
               />
             ))}

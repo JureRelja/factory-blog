@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { posts } from "../../assets/dummy-posts";
+import { articles } from "../../assets/dummy-posts";
 import commentIcon from "../../assets/icons/comment_v2.svg";
 import { Link } from "react-router-dom";
 
 const sortingOptions = ["Popular", "Top Rated", "Comments"];
 
-const sidebarPosts = posts.slice(0, 5);
+const sidebarArticles = articles.slice(0, 5);
 
 function SidebarArticles() {
   const [activeSorting, setActiveSorting] = useState("Popular");
@@ -31,19 +31,25 @@ function SidebarArticles() {
         </ul>
       </div>
       <div>
-        {sidebarPosts.map((post) => (
-          <Link to={`/${post.category}/${post.id}`} key={post.id}>
-            <div className="sidebar-post py-3 px-4">
+        {sidebarArticles.map((article) => (
+          <Link to={`/${article.category}/${article.id}`} key={article.id}>
+            <div className="sidebar-articles py-3 px-4">
               <div className="d-flex flex-column align-start">
                 <div className="comment-icon-box">
                   <img src={commentIcon} />
-                  <p className="m-0 meta-text">{post.commentsNum}</p>
+                  <p className="m-0 meta-text">{article.comments.length}</p>
                 </div>
 
-                <p className="meta-text p-0 mb-0">{post.createdDate}</p>
-                <p className="title p-0 mb-0">{post.postTitle}</p>
+                <p className="meta-text p-0 mb-0">
+                  {new Date(article.createdDate).toLocaleString("en-US", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </p>
+                <p className="title p-0 mb-0">{article.articleTitle}</p>
               </div>
-              <img src={post.featuredImage} className="post-img" />
+              <img src={article.featuredImage} className="article-img" />
             </div>
           </Link>
         ))}

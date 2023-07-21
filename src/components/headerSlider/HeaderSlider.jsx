@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeaderSliderCard from "./HeaderSliderCard";
-import { posts } from "../../assets/dummy-posts";
+import { articles } from "../../assets/dummy-posts";
 import headerSliderLeft from "../../assets/icons/header-slider-left-arrow.svg";
 import headerSliderRight from "../../assets/icons/header-slider-right-arrow.svg";
 import { Link } from "react-router-dom";
@@ -34,9 +34,9 @@ function NextArrow(props) {
   );
 }
 
-const featuredPosts = posts.slice(0, 5);
+const featuredArticles = articles.slice(0, 5);
 
-function HeaderPostSlider() {
+function HeaderSlider() {
   const settings = {
     dots: false,
     infinite: true,
@@ -50,13 +50,13 @@ function HeaderPostSlider() {
   return (
     <div className="header-slider-wrapper">
       <Slider {...settings}>
-        {featuredPosts.map((post) => (
-          <Link to={`/${post.category}/${post.id}`} key={post.id}>
+        {featuredArticles.map((article) => (
+          <Link to={`/${article.category}/${article.id}`} key={article.id}>
             <HeaderSliderCard
-              title={post.postTitle}
-              date={post.createdDate}
-              img={post.featuredImage}
-              commentsNumber={post.commentsNum}
+              title={article.articleTitle}
+              date={article.createdDate}
+              img={article.featuredImage}
+              commentsNumber={article.comments.length}
             />
           </Link>
         ))}
@@ -65,4 +65,4 @@ function HeaderPostSlider() {
   );
 }
 
-export default HeaderPostSlider;
+export default HeaderSlider;

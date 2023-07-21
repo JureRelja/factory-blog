@@ -5,7 +5,13 @@ function ArticleFeaturedImg({ img, title, createdDate }) {
     <div className="article-featured-img-wrapper ">
       <img src={img} alt={title} />
       <div>
-        <span>{createdDate}</span>
+        <span>
+          {new Date(createdDate).toLocaleString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+          })}
+        </span>
         <h1>{title}</h1>
       </div>
     </div>

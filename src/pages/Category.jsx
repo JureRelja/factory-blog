@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
-import HeaderPostSlider from "../components/headerPostSlider/HeaderPostSlider";
+import HeaderSlider from "../components/headerSlider/HeaderSlider";
 import { useParams } from "react-router-dom";
 import SmallBanner from "../components/banners/SmallBanner";
-import { posts } from "../assets/dummy-posts";
+import { articles } from "../assets/dummy-posts";
 import PreviewArticle from "../components/PreviewArticle";
 import Pagination from "react-bootstrap/Pagination";
 
@@ -31,12 +31,18 @@ function Category() {
   const categoryTitle = category.charAt(0).toUpperCase() + category.slice(1);
 
   // Filter posts by category
-  const filteredArticles = posts.filter((post) => post.category === category);
+  const filteredArticles = articles.filter(
+    (articles) => articles.category === category
+  );
+
+  const sortedArticles = filteredArticles.sort((a, b) => {
+    return new Date(b.createdDate) - new Date(a.createdDate);
+  });
 
   return (
     <div className="d-flex flex-column gap-4">
       {/* Post slider in the header */}
-      <HeaderPostSlider />
+      <HeaderSlider />
 
       <div className="d-flex justify-content-between gap-4 w-100">
         <div className="d-flex flex-column gap-4 w-620">
@@ -47,7 +53,7 @@ function Category() {
             </div>
 
             {/* List of articles */}
-            {filteredArticles.map((article) => (
+            {sortedArticles.map((article) => (
               <PreviewArticle key={article.id} article={article} />
             ))}
 

@@ -11,7 +11,6 @@ import img6 from "../assets/bottomSliderImages/image6.jpg";
 import img7 from "../assets/bottomSliderImages/image7.jpg";
 import loopIcon from "../assets/icons/search-icon.svg";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 
 const images = [
   { src: img1, id: 1 },

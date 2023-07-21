@@ -1,15 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { newComment } from "../../store/commentsSlice.jsx";
 
-function Comments({ comments }) {
+function Comments({ articleID }) {
+  const dispatch = useDispatch();
+
+  const allComments = useSelector((state) => state.comments);
+
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  const [userComment, setUserComment] = useState("");
+  const [commentError, setCommentError] = useState(false);
+
+  const handleUserName = (e) => {
+    setUserName(e.target.value);
+  };
+
+  const handleUserEmail = (e) => {
+    setUserEmail(e.target.value);
+  };
+
+  const handleUserComment = (e) => {
+    setUserComment(e.target.value);
+  };
+
   const handleNewComment = (e) => {
     e.preventDefault();
+
+    if (
+      userName.trim() === "" ||
+      userEmail.trim() === "" ||
+      userComment.trim() === ""
+    ) {
+      setCommentError(true);
+      return;
+    }
+
+    const newUserComment = {
+      id: thisArticleComments.length + 1,
+      userName: userName,
+      userImage: "/src/assets/dummyImages/avatarPlaceholder.jpg",
+      commentDate: new Date().toISOString(),
+      content: userComment,
+    };
+    dispatch(newComment({ articleID: articleID, newComment: newUserComment }));
   };
+
+  const thisArticleComments = allComments.find(
+    (article) => article.articleID === parseInt(articleID)
+  ).comments;
+
+  const arrayForSort = [...thisArticleComments];
+
+  const sortedComments = arrayForSort.sort((a, b) => {
+    return new Date(b.commentDate) - new Date(a.commentDate);
+  });
 
   return (
     <div className="comments-wrapper">
       <h3 className="heading mb-5">Comments</h3>
       <div className="comments p-0 m-0 mb-0">
-        {comments.map((comment) => (
+        {sortedComments.map((comment) => (
           <div className="comment " key={comment.id}>
             <img
               src={comment.userImage}
@@ -20,8 +71,14 @@ function Comments({ comments }) {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex justify-content-start align-items-baseline gap-3">
                   <span className="comment-user-name">{comment.userName}</span>
-                  <span className="meta-text-footer">
-                    {comment.commentDate}
+                  <span className="comment-date">
+                    {new Date(comment.commentDate).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                      hour: "numeric",
+                      minute: "numeric",
+                    })}
                   </span>
                 </div>
                 <button className="reply-button">Reply</button>
@@ -42,24 +99,25 @@ function Comments({ comments }) {
             </p>
           </div>
           <div>
-            <form className="comment-form">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email Adress" />
+            <form className="comment-form" onSubmit={handleNewComment}>
+              <input type="text" placeholder="Name" onChange={handleUserName} />
+              <input
+                type="email"
+                placeholder="Email Adress"
+                onChange={handleUserEmail}
+              />
               <textarea
                 name="comment"
                 id="comment"
                 cols="30"
                 rows="10"
                 placeholder="Comment"
+                onChange={handleUserComment}
               ></textarea>
 
-              <button
-                className="post-comment-btn mt-3"
-                onClick={handleNewComment}
-              >
-                Submit
-              </button>
+              <button className="post-comment-btn mt-3">Submit</button>
             </form>
+            {commentError && <p>Please fill correctly all fields</p>}
           </div>
         </div>
       </div>

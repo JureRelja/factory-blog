@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function FeaturedCategoryCard({ categoryPost, variant, className }) {
+function FeaturedCategoryCard({ categoryArticle, variant, className }) {
   return (
     <div
       className={`d-flex justify-content-start align-top ${className} ${
@@ -15,20 +15,26 @@ function FeaturedCategoryCard({ categoryPost, variant, className }) {
       }`}
     >
       <Link
-        to={`/${categoryPost.category}/${categoryPost.id}`}
+        to={`/${categoryArticle.category}/${categoryArticle.id}`}
         className={`featured-category-card-link ${
           variant == 2 && "d-flex gap-2"
         }`}
       >
-        <img src={categoryPost.featuredImage} alt="featured-category" />
-        <div className="post-content">
-          <div className="d-flex justify-content-between ">
-            <p className="p-0 m-0">{categoryPost.createdDate}</p>
+        <img src={categoryArticle.featuredImage} alt="featured-category" />
+        <div className="article-content">
+          <div className="d-flex justify-content-between mt-1">
+            <p className="p-0 m-0 ">
+              {new Date(categoryArticle.createdDate).toLocaleString("en-US", {
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </p>
             {variant == 1 && (
-              <p className="p-0 m-0">{categoryPost.commentsNum}</p>
+              <p className="p-0 m-0">{categoryArticle.comments.length}</p>
             )}
           </div>
-          <h3>{categoryPost.postTitle}</h3>
+          <h3>{categoryArticle.articleTitle}</h3>
         </div>
       </Link>
     </div>

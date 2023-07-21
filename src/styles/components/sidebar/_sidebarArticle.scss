@@ -1,6 +1,6 @@
 .bg-purple {
     width: 300px;
-    height: 618px;
+    height: 626px;
     background-color: $purple-active;
 
     a {
@@ -45,7 +45,7 @@
 }
     
 
-.sidebar-post {
+.sidebar-articles {
     border-bottom: 1px solid #605C81;
     transition: 0.1s all ease-in-out;
     display: flex;
@@ -74,7 +74,7 @@
         line-height: 20px;
     }
 
-    .post-img {
+    .article-img {
         width: 70px;
         height: 70px;
         border: 2px solid #fff;

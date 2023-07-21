@@ -3,9 +3,13 @@ import React from "react";
 import "./index.scss";
 import { RouterProvider } from "react-router-dom";
 import router from "./Router.jsx";
+import { store } from "./store/store.jsx";
+import { Provider } from "react-redux";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <Provider store={store}>
+      <RouterProvider router={router}></RouterProvider>
+    </Provider>
   </React.StrictMode>
 );

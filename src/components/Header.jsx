@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../assets/icons/logo-white.svg";
 import search from "../assets/icons/search-icon.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const categories = [
   { title: "News", path: "news" },
@@ -15,6 +16,12 @@ const categories = [
 
 function Header() {
   const [activeCategory, setActiveCategory] = useState("");
+  const location = useLocation();
+
+  useEffect(() => {
+    const path = location.pathname.split("/")[1];
+    setActiveCategory(path);
+  }, [location]);
 
   const handleCategoryClick = (e) => {
     setActiveCategory(e.target.id);
@@ -57,12 +64,12 @@ function Header() {
                 <Link to={`/${category.path}`} key={category.path}>
                   <li
                     className={
-                      category.title == activeCategory
+                      category.path == activeCategory
                         ? `active-category-${index + 1}`
                         : `category-${index + 1}`
                     }
                     onClick={handleCategoryClick}
-                    id={category.title}
+                    id={category.path}
                   >
                     {category.title}
                   </li>

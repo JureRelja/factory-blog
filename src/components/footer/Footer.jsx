@@ -10,10 +10,10 @@ import skype from "../../assets/icons/skype_v2.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { posts } from "../../assets/dummy-posts";
+import { articles } from "../../assets/dummy-posts";
 import { Link } from "react-router-dom";
 import smallTwitterLogo from "../../assets/icons/small-twitter-logo.svg";
-import FooterPost from "./FooterPost";
+import FooterPost from "./FooterArticle";
 
 const dummy_tags = [
   "Design",
@@ -53,8 +53,8 @@ const twitterPosts = [
   },
 ];
 
-const featuredPosts = posts.slice(0, 3);
-const randomPosts = posts.slice(3, 6);
+const featuredArticles = articles.slice(0, 3);
+const randomArticles = articles.slice(3, 6);
 
 function Footer() {
   return (
@@ -124,27 +124,27 @@ function Footer() {
             {/* Featured posts column */}
             <Col className="footer-column">
               <h2>Featured</h2>
-              <div className="featured-posts">
-                {featuredPosts.map((post, index) => (
+              <div className="featured-articles ">
+                {featuredArticles.map((article, index) => (
                   <FooterPost
-                    post={post}
+                    article={article}
                     index={index}
-                    postsLength={featuredPosts.length}
-                    key={post.id}
+                    articleLength={featuredArticles.length}
+                    key={article.id}
                   />
                 ))}
               </div>
             </Col>
             {/* Random posts column */}
             <Col className="footer-column">
-              <h2>Random posts</h2>
-              <div className="featured-posts">
-                {randomPosts.map((post, index) => (
+              <h2>Random Posts</h2>
+              <div className="featured-articles ">
+                {featuredArticles.map((article, index) => (
                   <FooterPost
-                    post={post}
+                    article={article}
                     index={index}
-                    postsLength={featuredPosts.length}
-                    key={post.id}
+                    articleLength={featuredArticles.length}
+                    key={article.id}
                   />
                 ))}
               </div>
