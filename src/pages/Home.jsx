@@ -22,13 +22,17 @@ const featuredCategories1 = [
     title: "News",
     border: "border-blue",
     path: "/news",
-    articles: newsArticles,
+    articles: newsArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
   },
   {
     title: "Sport",
     border: "border-green",
     path: "/sport",
-    articles: sportsArticles,
+    articles: sportsArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
   },
 ];
 
@@ -37,24 +41,36 @@ const featuredCategories2 = [
     title: "Business",
     border: "border-red",
     path: "/business",
-    articles: businessArticles,
+    articles: businessArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
   },
 ];
 
 const featuredCategories3 = [
-  { title: "News Carousel", border: "border-yellow", articles: newsArticles },
+  {
+    title: "News Carousel",
+    border: "border-yellow",
+    articles: newsArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
+  },
 ];
 
 const featuredCategories4 = [
   {
     title: "News",
     border: "border-brown",
-    articles: newsArticles,
+    articles: newsArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
   },
   {
     title: "Sport",
     border: "border-brown",
-    articles: newsArticles,
+    articles: newsArticles.sort(
+      (a, b) => new Date(b.createdDate) - new Date(a.createdDate)
+    ),
   },
 ];
 
