@@ -4,7 +4,7 @@ import HeaderSlider from "../components/headerSlider/HeaderSlider";
 import { useParams } from "react-router-dom";
 import SmallBanner from "../components/banners/SmallBanner";
 import articles from "../assets/dummyPosts.json";
-import PreviewArticle from "../components/PreviewArticle";
+import PreviewArticle from "../components/previewArticle/PreviewArticle";
 import Pagination from "react-bootstrap/Pagination";
 
 const articlesPerPage = 5;

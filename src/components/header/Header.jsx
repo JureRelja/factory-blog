@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import logo from "../assets/icons/logo-white.svg";
-import search from "../assets/icons/search-icon.svg";
+import logo from "../../assets/icons/logo-white.svg";
+import search from "../../assets/icons/search-icon.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";

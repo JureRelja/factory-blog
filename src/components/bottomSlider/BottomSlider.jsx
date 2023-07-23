@@ -1,15 +1,15 @@
 import React, { useRef, useState } from "react";
 import Slider from "react-slick";
-import lowerLeftArrow from "../assets/icons/bottom-slider-left-arrow.svg";
-import lowerRightArrow from "../assets/icons/bottom-slider-right-arrow.svg";
-import img1 from "../assets/bottomSliderImages/image1.jpg";
-import img2 from "../assets/bottomSliderImages/image2.jpg";
-import img3 from "../assets/bottomSliderImages/image3.jpg";
-import img4 from "../assets/bottomSliderImages/image4.jpg";
-import img5 from "../assets/bottomSliderImages/image5.jpg";
-import img6 from "../assets/bottomSliderImages/image6.jpg";
-import img7 from "../assets/bottomSliderImages/image7.jpg";
-import loopIcon from "../assets/icons/search-icon.svg";
+import lowerLeftArrow from "../../assets/icons/bottom-slider-left-arrow.svg";
+import lowerRightArrow from "../../assets/icons/bottom-slider-right-arrow.svg";
+import img1 from "../../assets/bottomSliderImages/image1.jpg";
+import img2 from "../../assets/bottomSliderImages/image2.jpg";
+import img3 from "../../assets/bottomSliderImages/image3.jpg";
+import img4 from "../../assets/bottomSliderImages/image4.jpg";
+import img5 from "../../assets/bottomSliderImages/image5.jpg";
+import img6 from "../../assets/bottomSliderImages/image6.jpg";
+import img7 from "../../assets/bottomSliderImages/image7.jpg";
+import loopIcon from "../../assets/icons/search-icon.svg";
 import Modal from "react-bootstrap/Modal";
 
 const images = [

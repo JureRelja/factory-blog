@@ -1,5 +1,5 @@
 import React from "react";
-import calendar from "../assets/icons/calendar.svg";
+import calendar from "../../assets/icons/calendar.svg";
 import { Link } from "react-router-dom";
 
 function PreviewArticle({ article }) {
