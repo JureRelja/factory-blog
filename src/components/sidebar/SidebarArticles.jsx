@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { articles } from "../../assets/dummy-posts";
+import articles from "../../assets/dummyPosts.json";
 import commentIcon from "../../assets/icons/comment_v2.svg";
 import { Link } from "react-router-dom";
 

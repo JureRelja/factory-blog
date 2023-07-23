@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { articles } from "../assets/dummy-posts";
+import articles from "../assets/dummyPosts.json";
 import Sidebar from "../components/sidebar/Sidebar";
 import ArticleContent from "../components/fullArticle/ArticleContent";
 import ArticleFeaturedImg from "../components/fullArticle/ArticleFeaturedImg";
@@ -20,7 +20,7 @@ function FullArticle() {
       {/* Article's feature image */}
       <ArticleFeaturedImg
         img={article.featuredImage}
-        title={article.postTitle}
+        title={article.articleTitle}
         createdDate={article.createdDate}
       />
       <div className="d-flex justify-content-between align-items-top gap-4">
@@ -29,7 +29,7 @@ function FullArticle() {
           <ArticleContent content={article.articleContent} />
           <SmallBanner />
           <AuthorInfo author={article.author} />
-          <Comments articleID={articleId} />
+          <Comments article={article} />
         </div>
         {/* Sidebar */}
         <Sidebar />

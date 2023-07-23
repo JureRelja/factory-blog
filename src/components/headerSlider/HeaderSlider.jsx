@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeaderSliderCard from "./HeaderSliderCard";
-import { articles } from "../../assets/dummy-posts";
+import articles from "../../assets/dummyPosts.json";
 import headerSliderLeft from "../../assets/icons/header-slider-left-arrow.svg";
 import headerSliderRight from "../../assets/icons/header-slider-right-arrow.svg";
 import { Link } from "react-router-dom";

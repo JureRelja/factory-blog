@@ -10,7 +10,7 @@ import skype from "../../assets/icons/skype_v2.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { articles } from "../../assets/dummy-posts";
+import articles from "../../assets/dummyPosts.json";
 import { Link } from "react-router-dom";
 import smallTwitterLogo from "../../assets/icons/small-twitter-logo.svg";
 import FooterPost from "./FooterArticle";

@@ -5,7 +5,7 @@ import FeaturedCategory from "../components/featuredCategory/FeaturedCategory";
 import SmallBanner from "../components/banners/SmallBanner";
 import LargeBanner from "../components/banners/LargeBanner";
 import BottomSlider from "../components/BottomSlider";
-import { articles } from "../assets/dummy-posts";
+import articles from "../assets/dummyPosts.json";
 
 const newsArticles = articles
   .filter((article) => article.category == "news")

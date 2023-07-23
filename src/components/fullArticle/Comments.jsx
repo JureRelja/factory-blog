@@ -1,12 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { newComment } from "../../store/commentsSlice.jsx";
+import { loadComments, newComment } from "../../store/commentsSlice.jsx";
+import articles from "../../assets/dummyPosts.json";
+import * as fs from "fs";
 
-function Comments({ articleID }) {
+function Comments({ article }) {
   const dispatch = useDispatch();
+  //Getting the comments from Redux state
+  const comments = useSelector((state) => state.comments.comments);
 
-  const allComments = useSelector((state) => state.comments);
+  const commentsRef = useRef(null);
 
+  //Copying the comments from json file to Redux state
+  useEffect(() => {
+    dispatch(
+      loadComments({ articleID: article.id, comments: article.comments })
+    );
+  }, []);
+
+  //Handling the new comment
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userComment, setUserComment] = useState("");
@@ -37,39 +49,44 @@ function Comments({ articleID }) {
     }
 
     const newUserComment = {
-      id: thisArticleComments.length + 1,
+      id: Math.floor(Math.random() * 100),
       userName: userName,
-      userImage: "/src/assets/dummyImages/avatarPlaceholder.jpg",
       commentDate: new Date().toISOString(),
       content: userComment,
+      userImage: "/src/assets/dummyImages/avatarPlaceholder.jpg",
     };
-    dispatch(newComment({ articleID: articleID, newComment: newUserComment }));
+
+    dispatch(newComment(newUserComment)); //Adding the new comment to Redux state
+
+    setUserName("");
+    setUserEmail("");
+    setUserComment("");
+    setCommentError(false);
+
+    commentsRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  const thisArticleComments = allComments.find(
-    (article) => article.articleID === parseInt(articleID)
-  ).comments;
-
-  const arrayForSort = [...thisArticleComments];
+  //Sorting the comments by date
+  const arrayForSort = [...comments];
 
   const sortedComments = arrayForSort.sort((a, b) => {
     return new Date(b.commentDate) - new Date(a.commentDate);
   });
 
   return (
-    <div className="comments-wrapper">
+    <div className="comments-wrapper w-100">
       <h3 className="heading mb-5">Comments</h3>
-      <div className="comments p-0 m-0 mb-0">
+      <div className="comments p-0 m-0 mb-0 w-100" ref={commentsRef}>
         {sortedComments.map((comment) => (
-          <div className="comment " key={comment.id}>
+          <div className="comment w-100" key={comment.id}>
             <img
               src={comment.userImage}
               alt={comment.userName}
               className="comment-user-img"
             />
-            <div className="d-flex flex-column gap-1 ">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex justify-content-start align-items-baseline gap-3">
+            <div className="d-flex flex-column gap-1 w-100">
+              <div className="d-flex justify-content-between align-items-center w-100">
+                <div className="d-flex justify-content-start align-items-baseline gap-3 w-100">
                   <span className="comment-user-name">{comment.userName}</span>
                   <span className="comment-date">
                     {new Date(comment.commentDate).toLocaleDateString("en-US", {
