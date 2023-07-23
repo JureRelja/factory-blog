@@ -1,8 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { loadComments, newComment } from "../../store/commentsSlice.jsx";
+import {
+  loadComments,
+  newComment,
+  newReply,
+} from "../../store/commentsSlice.jsx";
 import articles from "../../assets/dummyPosts.json";
-import * as fs from "fs";
 
 function Comments({ article }) {
   const dispatch = useDispatch();
@@ -11,31 +14,14 @@ function Comments({ article }) {
 
   const commentsRef = useRef(null);
 
-  //Copying the comments from json file to Redux state
-  useEffect(() => {
-    dispatch(
-      loadComments({ articleID: article.id, comments: article.comments })
-    );
-  }, []);
-
-  //Handling the new comment
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userComment, setUserComment] = useState("");
   const [commentError, setCommentError] = useState(false);
+  const [replyError, setReplyError] = useState(false);
+  const [activeReplyComment, setActiveReplyComment] = useState(null); //Setting comment which is in repling state
 
-  const handleUserName = (e) => {
-    setUserName(e.target.value);
-  };
-
-  const handleUserEmail = (e) => {
-    setUserEmail(e.target.value);
-  };
-
-  const handleUserComment = (e) => {
-    setUserComment(e.target.value);
-  };
-
+  //Handling the new comment
   const handleNewComment = (e) => {
     e.preventDefault();
 
@@ -66,6 +52,43 @@ function Comments({ article }) {
     commentsRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
+  //Handling the new reply
+  const handleNewReply = (commentID) => {
+    if (
+      userName.trim() === "" ||
+      userEmail.trim() === "" ||
+      userComment.trim() === ""
+    ) {
+      setReplyError(true);
+      return;
+    }
+
+    const newReplyComment = {
+      id: Math.floor(Math.random() * 100),
+      userName: userName,
+      commentDate: new Date().toISOString(),
+      content: userComment,
+      userImage: "/src/assets/dummyImages/avatarPlaceholder.jpg",
+    };
+
+    dispatch(
+      newReply({ commentID: commentID, newReplyComment: newReplyComment })
+    ); //Adding the new reply to Redux state
+
+    setUserName("");
+    setUserEmail("");
+    setUserComment("");
+    setReplyError(false);
+    setActiveReplyComment(null);
+  };
+
+  //Copying the comments from json file to Redux state
+  useEffect(() => {
+    dispatch(
+      loadComments({ articleID: article.id, comments: article.comments })
+    );
+  }, []);
+
   //Sorting the comments by date
   const arrayForSort = [...comments];
 
@@ -79,11 +102,7 @@ function Comments({ article }) {
       <div className="comments p-0 m-0 mb-0 w-100" ref={commentsRef}>
         {sortedComments.map((comment) => (
           <div className="comment w-100" key={comment.id}>
-            <img
-              src={comment.userImage}
-              alt={comment.userName}
-              className="comment-user-img"
-            />
+            <img src={comment.userImage} alt={comment.userName} />
             <div className="d-flex flex-column gap-1 w-100">
               <div className="d-flex justify-content-between align-items-center w-100">
                 <div className="d-flex justify-content-start align-items-baseline gap-3 w-100">
@@ -98,9 +117,86 @@ function Comments({ article }) {
                     })}
                   </span>
                 </div>
-                <button className="reply-button">Reply</button>
+                <button
+                  className="reply-button"
+                  onClick={() => setActiveReplyComment(comment.id)}
+                >
+                  Reply
+                </button>
               </div>
               <p className="comment-content p-0 m-0">{comment.content}</p>
+
+              {/* Reply Form */}
+              <form
+                className={`comment-form ${
+                  comment.id !== activeReplyComment && "hide-comment-form"
+                } my-2`}
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  handleNewReply(comment.id);
+                }}
+              >
+                <input
+                  type="text"
+                  placeholder="Name"
+                  onChange={(e) => setUserName(e.target.value)}
+                />
+                <input
+                  type="email"
+                  placeholder="Email Adress"
+                  onChange={(e) => setUserEmail(e.target.value)}
+                />
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Comment"
+                  onChange={(e) => setUserComment(e.target.value)}
+                ></textarea>
+
+                <button className="post-comment-btn mt-3">Submit</button>
+              </form>
+              {replyError && (
+                <p className="text-danger mt-2">
+                  Please fill correctly all fields
+                </p>
+              )}
+
+              {/* Replies */}
+              <div className="mt-2 d-flex flex-column w-100 gap-2">
+                {[...comment.replies]
+                  .sort((a, b) => {
+                    return new Date(b.commentDate) - new Date(a.commentDate);
+                  })
+                  .map((reply) => (
+                    <div className="comment">
+                      <img src={reply.userImage} alt={reply.userName} />
+                      <div className="d-flex flex-column gap-1 w-100">
+                        <div className="d-flex justify-content-between align-items-center w-100">
+                          <span className="comment-user-name">
+                            {reply.userName}
+                          </span>
+                          <span className="comment-date">
+                            {new Date(reply.commentDate).toLocaleDateString(
+                              "en-US",
+                              {
+                                month: "short",
+                                day: "numeric",
+                                year: "numeric",
+                                hour: "numeric",
+                                minute: "numeric",
+                              }
+                            )}
+                          </span>
+                        </div>
+                        <p className="comment-content p-0 m-0">
+                          {reply.content}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+              </div>
             </div>
           </div>
         ))}
@@ -117,11 +213,15 @@ function Comments({ article }) {
           </div>
           <div>
             <form className="comment-form" onSubmit={handleNewComment}>
-              <input type="text" placeholder="Name" onChange={handleUserName} />
+              <input
+                type="text"
+                placeholder="Name"
+                onChange={(e) => setUserName(e.target.value)}
+              />
               <input
                 type="email"
                 placeholder="Email Adress"
-                onChange={handleUserEmail}
+                onChange={(e) => setUserEmail(e.target.value)}
               />
               <textarea
                 name="comment"
@@ -129,12 +229,16 @@ function Comments({ article }) {
                 cols="30"
                 rows="10"
                 placeholder="Comment"
-                onChange={handleUserComment}
+                onChange={(e) => setUserComment(e.target.value)}
               ></textarea>
 
               <button className="post-comment-btn mt-3">Submit</button>
             </form>
-            {commentError && <p>Please fill correctly all fields</p>}
+            {commentError && (
+              <p className="text-danger mt-2">
+                Please fill correctly all fields
+              </p>
+            )}
           </div>
         </div>
       </div>

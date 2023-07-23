@@ -19,9 +19,16 @@ export const commentSlice = createSlice({
       const newUserComment = action.payload;
       state.comments.push(newUserComment);
     },
+    newReply: (state, action) => {
+      const { commentID, newReplyComment } = action.payload;
+      const commentIndex = state.comments.findIndex(
+        (comment) => comment.id === commentID
+      );
+      state.comments[commentIndex].replies.push(newReplyComment);
+    },
   },
 });
 
-export const { newComment, loadComments } = commentSlice.actions;
+export const { newComment, loadComments, newReply } = commentSlice.actions;
 
 export default commentSlice.reducer;

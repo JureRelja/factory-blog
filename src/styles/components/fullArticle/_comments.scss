@@ -75,6 +75,10 @@
         }
     }
 
+    .hide-comment-form {
+        display: none;
+    }
+
     .post-comment-btn {
         background-color: $purple-active;
         color: white;
