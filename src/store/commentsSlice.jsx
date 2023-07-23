@@ -1,8 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  articleID: 0,
-  comments: [],
+  articles: [
+    {
+      articleID: 0,
+      comments: [],
+    },
+  ],
 };
 
 export const commentSlice = createSlice({
@@ -11,20 +15,37 @@ export const commentSlice = createSlice({
   reducers: {
     loadComments: (state, action) => {
       const { articleID, comments } = action.payload;
-      state.articleID = articleID;
-      state.comments = comments;
-      console.log(state.comments);
+      if (state.articles.find((article) => article.articleID === articleID)) {
+        return;
+      }
+      const commentsForStore = {
+        articleID: articleID,
+        comments: comments,
+      };
+      state.articles.push(commentsForStore);
     },
     newComment: (state, action) => {
-      const newUserComment = action.payload;
-      state.comments.push(newUserComment);
+      const { articleID, newUserComment } = action.payload;
+
+      const articleIndex = state.articles.findIndex(
+        (article) => article.articleID === articleID
+      );
+
+      state.articles[articleIndex].comments.push(newUserComment);
     },
     newReply: (state, action) => {
-      const { commentID, newReplyComment } = action.payload;
-      const commentIndex = state.comments.findIndex(
+      const { articleID, commentID, newReplyComment } = action.payload;
+
+      const articleIndex = state.articles.findIndex(
+        (article) => article.articleID === articleID
+      );
+
+      const commentIndex = state.articles[articleIndex].comments.findIndex(
         (comment) => comment.id === commentID
       );
-      state.comments[commentIndex].replies.push(newReplyComment);
+      state.articles[articleIndex].comments[commentIndex].replies.push(
+        newReplyComment
+      );
     },
   },
 });
