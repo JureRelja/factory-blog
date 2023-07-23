@@ -40,6 +40,7 @@ function Comments({ article }) {
       commentDate: new Date().toISOString(),
       content: userComment,
       userImage: "/src/assets/dummyImages/avatarPlaceholder.jpg",
+      replies: [],
     };
 
     dispatch(newComment(newUserComment)); //Adding the new comment to Redux state
@@ -170,7 +171,7 @@ function Comments({ article }) {
                     return new Date(b.commentDate) - new Date(a.commentDate);
                   })
                   .map((reply) => (
-                    <div className="comment">
+                    <div className="comment" key={reply.id}>
                       <img src={reply.userImage} alt={reply.userName} />
                       <div className="d-flex flex-column gap-1 w-100">
                         <div className="d-flex justify-content-between align-items-center w-100">
