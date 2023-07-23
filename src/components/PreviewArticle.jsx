@@ -5,7 +5,14 @@ import { Link } from "react-router-dom";
 function PreviewArticle({ article }) {
   return (
     <div className="preview-article-wrapper">
-      <h2 className="heading mb-2">{article.articleTitle}</h2>
+      <Link
+        to={`/${article.category}/${article.id}`}
+        className="text-decoration-none"
+      >
+        <h2 className="heading mb-2 text-decoration-none">
+          {article.articleTitle}
+        </h2>
+      </Link>
       <div className="meta-data">
         <div className="created-date">
           <img src={calendar} />
@@ -21,7 +28,12 @@ function PreviewArticle({ article }) {
         <span>{article.comments.length} Comments</span>
       </div>
       <div className="article-img-content">
-        <img src={article.featuredImage} />
+        <Link
+          to={`/${article.category}/${article.id}`}
+          className="text-decoration-none"
+        >
+          <img src={article.featuredImage} />
+        </Link>
         <div className="d-flex flex-column justify-content-start align-items-top gap-3">
           <p>{article.articleContent[0].content.substring(0, 400)}</p>
           <Link to={`/${article.category}/${article.id}`}>

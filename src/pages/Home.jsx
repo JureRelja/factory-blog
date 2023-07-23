@@ -4,7 +4,7 @@ import HeaderSlider from "../components/headerSlider/HeaderSlider";
 import FeaturedCategory from "../components/featuredCategory/FeaturedCategory";
 import SmallBanner from "../components/banners/SmallBanner";
 import LargeBanner from "../components/banners/LargeBanner";
-import BottomSlider from "../components/BottomSlider";
+import BottomSlider from "../components/bottomSlider/BottomSlider";
 import articles from "../assets/dummyPosts.json";
 
 const newsArticles = articles

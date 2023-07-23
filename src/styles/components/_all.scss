@@ -1,5 +1,5 @@
-@import "./rootLayout";
-@import "./header";
+@import "./layout/rootLayout";
+@import "./header/header";
 @import "./footer/footer";
 @import "./footer/footerArticle";
 @import "./sidebar/sidebarArticle";
@@ -9,8 +9,8 @@
 @import "./headerSlider/headerSliderCard";
 @import "./featuredCategories/featuredCategoryCard";
 @import "./featuredCategories/featuredCategory";
-@import "./bottomSlider";
-@import "./previewArticle";
+@import "./bottomSlider/bottomSlider";
+@import "./previewArticle/previewArticle";
 @import "./fullArticle/articleFeaturedImg";
 @import "./fullArticle/articleContent";
 @import "./fullArticle/authorInfo";
