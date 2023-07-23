@@ -58,8 +58,8 @@ function Category() {
   });
 
   useEffect(() => {
-    window.scrollTo(0, 500);
-  }, []);
+    setActive(1);
+  }, [category]);
 
   return (
     <div className="d-flex flex-column gap-4">
