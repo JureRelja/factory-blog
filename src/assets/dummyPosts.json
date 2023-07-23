@@ -30,21 +30,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-03-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -79,21 +106,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-05T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -129,20 +183,48 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -178,20 +260,48 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -226,21 +336,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T13:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -276,6 +413,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -283,13 +430,32 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T13:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -324,21 +490,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -373,7 +566,16 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -381,13 +583,32 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -422,21 +643,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -453,14 +701,32 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -468,6 +734,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ],
             "author": {"name": "Jure Reljanović", "avatar": "/src/assets/dummyImages/author1.jpg", "desciption": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna, at aliquam nullam facilisis aliquet sapien, eget duis consectetuer tristique nunc vitae erat, mi purus nisl lorem."},
@@ -478,20 +754,48 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T18:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -527,13 +831,32 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T19:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -541,6 +864,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -575,21 +908,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -625,6 +985,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -632,6 +1002,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -639,6 +1019,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -673,21 +1063,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -722,21 +1139,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-05T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-07T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-11T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -771,21 +1215,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-11T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -820,21 +1291,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -868,21 +1366,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-03-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -918,6 +1443,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -925,13 +1460,32 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-05T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -967,20 +1521,48 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1015,21 +1597,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1064,21 +1673,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T13:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1087,7 +1723,6 @@
             "articleTitle": "Patriotsvv make cuts ... and Tim Tebow survives (so far)",
             "createdDate": "2022-05-06",
             "featuredImage":  "/src/assets/dummyImages/image3.jpg",
-            
             "category": "business",
             "articleContent": [
                 {
@@ -1113,21 +1748,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T13:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1163,6 +1825,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1170,6 +1842,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1177,6 +1859,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1212,6 +1904,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1219,6 +1921,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1226,6 +1938,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1261,6 +1983,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1268,6 +2000,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1275,6 +2017,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1292,6 +2044,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1299,6 +2061,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1306,6 +2078,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ],
             "author": {"name": "Jure Reljanović", "avatar": "/src/assets/dummyImages/author1.jpg", "desciption": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna, at aliquam nullam facilisis aliquet sapien, eget duis consectetuer tristique nunc vitae erat, mi purus nisl lorem."},
@@ -1316,6 +2098,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1323,6 +2115,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1330,6 +2132,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T18:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1365,6 +2177,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1372,6 +2194,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T19:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1379,6 +2211,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1414,6 +2256,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1421,6 +2273,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1428,6 +2290,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1463,6 +2335,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-02-01T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1470,6 +2352,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1477,6 +2369,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T14:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1512,6 +2414,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-02T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
@@ -1519,6 +2431,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-03T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
@@ -1526,6 +2448,16 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-04T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1561,20 +2493,48 @@
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-05T12:00:00Z",
                     "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    ,
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-07T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-11T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1609,21 +2569,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-11T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-05-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1658,21 +2645,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1707,21 +2721,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1756,21 +2797,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1805,21 +2873,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1854,21 +2949,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         },
@@ -1999,21 +3121,48 @@
                     "userName": "Matt Adams",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T15:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "userName": "Andrew Enns",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-11-01T12:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 },
                 {    
                     "id": 3,
                     "userName": "John Toews",
                     "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
                     "commentDate": "2023-01-01T20:00:00Z",
-                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna."
+                    "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venenatis blandit sed est ultrices, adipiscing urna.",
+                    "replies": [
+                        {
+                            "id": 1,
+                            "userName": "Matt Adams",
+                            "userImage": "/src/assets/dummyImages/avatarPlaceholder.jpg",
+                            "commentDate": "2023-11-01T15:00:00Z",
+                            "content": "Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas."
+                        }
+                    ]
                 }
             ]
         }
