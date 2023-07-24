@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import HeaderSlider from "../components/headerSlider/HeaderSlider";
 import { useParams } from "react-router-dom";
-import SmallBanner from "../components/banners/SmallBanner";
+import Banner from "../components/banners/Banner";
 import articles from "../assets/dummyPosts.json";
 import PreviewArticle from "../components/previewArticle/PreviewArticle";
 import Pagination from "react-bootstrap/Pagination";
@@ -87,7 +87,7 @@ function Category() {
           </div>
 
           {/* Banner */}
-          <SmallBanner />
+          <Banner size="sm" />
         </div>
         <Sidebar />
       </div>

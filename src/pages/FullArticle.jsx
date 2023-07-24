@@ -4,7 +4,7 @@ import articles from "../assets/dummyPosts.json";
 import Sidebar from "../components/sidebar/Sidebar";
 import ArticleContent from "../components/fullArticle/ArticleContent";
 import ArticleFeaturedImg from "../components/fullArticle/ArticleFeaturedImg";
-import SmallBanner from "../components/banners/SmallBanner";
+import Banner from "../components/banners/Banner";
 import AuthorInfo from "../components/fullArticle/AuthorInfo";
 import Comments from "../components/fullArticle/Comments";
 
@@ -27,7 +27,7 @@ function FullArticle() {
         {/* Article's content */}
         <div className="d-flex flex-column gap-4">
           <ArticleContent content={article.articleContent} />
-          <SmallBanner />
+          <Banner size="sm" />
           <AuthorInfo author={article.author} />
           <Comments article={article} />
         </div>

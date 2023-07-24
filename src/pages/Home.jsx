@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import HeaderSlider from "../components/headerSlider/HeaderSlider";
 import FeaturedCategory from "../components/featuredCategory/FeaturedCategory";
-import SmallBanner from "../components/banners/SmallBanner";
-import LargeBanner from "../components/banners/LargeBanner";
+import Banner from "../components/banners/Banner";
 import BottomSlider from "../components/bottomSlider/BottomSlider";
 import articles from "../assets/dummyPosts.json";
 
@@ -95,7 +94,7 @@ function Home() {
             />
           ))}
           {/* Banner */}
-          <SmallBanner />
+          <Banner size="sm" />
           {/* Featured categories 2 */}
           {featuredCategories2.map((category) => (
             <FeaturedCategory
@@ -108,7 +107,7 @@ function Home() {
             />
           ))}
           {/* Banner */}
-          <SmallBanner />
+          <Banner size="sm" />
           {/* Double carousel */}
           {featuredCategories3.map((category) => (
             <FeaturedCategory
@@ -135,7 +134,7 @@ function Home() {
         </div>
         <Sidebar />
       </div>
-      <LargeBanner />
+      <Banner size="lg" />
 
       {/* Image slider in the bottom */}
       <BottomSlider />
